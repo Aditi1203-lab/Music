@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: darkgrey;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.lyrics{
+    margin-top: 35px;
+    background-color: aquamarine;
+    height: 75vh;
+    width:25vw;
+   border-radius: 23px;
+}
+li{
+    cursor: pointer;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: azure;
+}
+.brand img{
+    width: 100px;
+    height: 65px;
+   
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+.container{
+    min-height:78vh;
+    display: flex;
+    width:70%;
+    margin: 15px auto;
+    background-color: black;
+    color:white;
+   border-radius: 13px;
+   background-image: url("marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 100px;
+   color: antiquewhite;
+}
+.songitem{
+    display: flex;
+    margin: 12px 20px;
+    height:70px;
+    width: 95%;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 34px;
+ font-size: large;
+ 
+}
+.songitem img{
+    width: 70px;
+    height: 70px;
+    margin: 0 23px 0;
+    border-radius: 34px;
+}
+#mybar
+{
+    width:70vw;
+    text-align:center;
+    margin-left: 140px;
+    margin-top: 40px;
+    cursor:pointer;
+}
+.icons{
+    margin-left: 12px;
+}
+.bottom .icon{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+.bottom .fas{
+    margin-left:40px;
+    cursor: pointer;
+}
+.playsong i{
+    cursor: pointer;
+}
+.songlist h1{
+    margin-left: 15px;
+    margin-top:12px;
+   
+}
+.songposter{
+   
+    margin-right: 50px;
+    margin-top:50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
